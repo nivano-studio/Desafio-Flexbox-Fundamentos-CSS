@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  text-align: center;
+}
+
+.quadr {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+
+  background-color: #123047;
+  border-radius: 20px;
+  padding: 14px;
+}
+
+.q1 {
+  /* $ Flexbox */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.q2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: start;
+}
+
+.q3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.q4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.q5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.q6 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.q6 .i2 {
+  flex: 1;
+  border-radius: 5px;
+}
+
+.q7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.q8 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  flex-wrap: wrap;
+}
+
+.q8 .item {
+  width: 60px;
+  height: 60px;
+}
+
+.item {
+  width: 30px;
+  height: 30px;
+  color: white;
+
+  border-radius: 20%;
+
+  /* $ Flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.i1 {
+  background-color: #8ccbff;
+}
+
+.i2 {
+  background-color: #54a8ee;
+}
+
+.i3 {
+  background-color: #3482cc;
+}
+
+.i4 {
+  background-color: #24609f;
+}
